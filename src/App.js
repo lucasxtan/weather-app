@@ -58,7 +58,7 @@ function App() {
                 {Math.round(weather.main.temp)}
               </div>
               <div className="weather">
-                Sunny
+                {weather.weather[0].main}
               </div>
             </div>
           </div>
